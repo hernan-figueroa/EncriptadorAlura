@@ -53,3 +53,10 @@ function copy() {
 }
   
 document.querySelector("#copy").addEventListener("click", copy);
+
+function textValidator(){
+    var inputValue = window.event.keyCode;
+        if(!((inputValue >= 97 && inputValue <= 122) || (inputValue == 32))) {                      
+            window.event.preventDefault(); 
+        }
+}
