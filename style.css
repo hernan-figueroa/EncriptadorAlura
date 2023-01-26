@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(#f3f5fc,#cad4fc);
+    height: 100vh;
+}   
+
+body {
+    margin-top: 20px;
+}
+
+main{
+    margin: 0 40px;
+}
+
+#caja-texto {
+    justify-content: center;
+}
+.entrada{
+    display: flex;
+    width: 600px;
+    height:450px;
+    align-items: center;
+}
+
+#mensajeEncriptado{
+    display:none;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    resize: none;
+    font-size: 30px;
+    border: none;
+    height: 447px;
+    width: 350px;
+}
+
+#mensaje {
+    position: absolute;
+    top:40px;
+    right: 150px;
+    margin-left: 80px;
+    background-color: #ffffff;
+    height: 600px;
+    width: 400px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+
+#ingreseTexto {
+    display: flex;
+    margin: 0 auto;
+    color: #0a3871;
+    border: none;
+    background: transparent;
+    font-size: 32px;
+    height: 400px;
+    text-transform:lowercase;
+    cursor: pointer;
+}
+    
+#buscador{
+    margin:100px 20px 0 20px;
+}
+
+button{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+}
+.botonEncriptador {
+    color: #FFFFFF;
+    border: none;
+    background: #0a3871;
+}
+
+.botonEncriptador:hover {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #486991;
+    background: #0d4992;
+
+}
+
+.botonDesencriptador {
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+}
+
+.botonDesencriptador:hover {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #486991;
+    background: #c4d2e4;
+
+}
+
+#copy{
+    display: none;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+#resultado {
+    width: 336px;
+    height: 58px;
+    color: #343a40;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#aviso{
+    width: 336px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    margin: 0 auto;
+
+}
+
+#advertencia {
+    margin-bottom: 0px;
+    height: 20px;
+    color: #495057;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#advertencia img{
+    display: inline-block;
+}
+
+#advertencia p{
+    padding-left: 1em;
+    display: inline-block;
+}
+
